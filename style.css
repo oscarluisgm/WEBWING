@@ -1,0 +1,120 @@
+:root{
+  --blue: rgb(17, 17, 121);
+  --yellow: rgb(255, 196, 0);
+  --containerX: 100px;
+  --gray: rgb(27, 27, 27); 
+}
+
+body{
+  background-color: blueviolet;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+
+}
+.section1{
+  display: flex;
+  justify-content:space-between;
+  background-color: var(--blue);
+  padding: 10px 20px;
+}
+.language{
+  display: flex;
+  align-items: center;
+}
+.flag{
+  height: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.planet{
+  height: 10px;
+  margin-right: 10px;
+}
+.social{
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.img{
+  height: 30px;
+  margin: 0px 5px;
+}
+.section2{
+  display: flex;
+  background-color: white;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+}
+.section2 h2{
+  color: var(--yellow);
+}
+.main{
+  display: flex;
+  background:linear-gradient(rgba(17, 86, 212, 0.671), rgba(17, 86, 212, 0.671)), url(./imagenes/backgroundLaptopCoffee.jpg);
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.main button{
+  border: none;
+  background-color: var(--blue);
+  color: white;
+  padding: 15px 15px;
+}
+.main button:hover{
+  background-color: var(--yellow);
+  color: black;
+  cursor:pointer;
+}
+.navButtons{
+  background-color: var(--blue);
+  padding: 0px 30px;
+}
+.navButtons button {
+  border: none;
+  background-color: var(--blue);
+  color: white;
+  padding: 15px 15px;
+}
+.navButtons button:hover{
+  background-color: var(--yellow);
+  color: black;
+  cursor:pointer;
+}
+.contactanos{
+  display: flex;
+  background-color: var(--blue);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 0px;
+}
+.contactanos button{
+  border: none;
+  background-color: rgb(76, 76, 253);
+  color: white;
+  width: 100%;
+}
+.contactanos button:hover{
+  background-color: var(--yellow);
+  color: black;
+  cursor:pointer;
+}
+.contact-text{
+  padding: 15px;
+}
+footer{
+  text-align: center;
+  background-color: var(--gray);
+  padding: 20px;
+}
+.container {
+  padding: 0px var(--containerX);
+}
